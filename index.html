@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #6C757D;
+            color: #212529;
+            font-family: "Poppins", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main{
+            margin: -50px 0;
+            /* padding-bottom: 20px; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #ADB5BD;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #212529;
+            ;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.01rem;
+            color: #6C757D;
+        }
+
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 70px 0;
+        }
+
+        .leftSection {
+            /* background-color: aqua; */
+            width: 30%;
+            margin: 30px -30px;
+            font-size: xx-large;
+        }
+
+        .colour {
+            color: #CED4DA;
+        }
+
+        .image {
+            background-color: #6C757D;
+        }
+
+        #element {
+            color: #CED4DA;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection .box {
+            background: #212529;
+            height: 2px;
+            width: 77vw;
+            margin: -500px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background: #212529;
+            height: 93px;
+            width: 1px;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 70px;
+            width: 150px;
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 80px;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        .text-gray {
+            color: #212529;
+        }
+
+        .line {
+            color: #212529;
+            margin: 70px 50px;
+        }
+
+        footer {
+            background-color: #ADB5BD;
+            height: 233px; /* Ensure footer has some height */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Spacing between footer content and footer-rights */
+            padding: 20px;
+            /* padding-bottom: 20px; */
+            margin: -1000px 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly; /* Maintain equal space between sections */
+            padding-top: 20px;
+        }
+
+        .projectsSection {
+            max-width: 100vw;
+            margin: 1000px 0;
+            justify-content: center;
+            padding: 30px 0; /* Spacing above and below */
+            text-align: center; /* Center-align heading and content */
+        }
+
+        .projectsSection h1 {
+            font-size: 1.8rem;
+            text-align: left;
+            margin: 0 120px;
+        }
+
+        .project {
+            padding: 20px; /* Padding around each project */
+            border-bottom: 1px solid #212529; /* Bottom border for separation */
+        }
+
+        .project h2 {
+            font-size: 1.5rem;
+        }
+
+        .project a {
+            color: #212529; /* Maintain color consistency */
+            text-decoration: underline; /* Underline links */
+        }
+
+        .fheading {
+            width: 200px;
+        }
+
+        .footer-rights {
+            color: #212529; /* Text color for rights text */
+            text-align: center; /* Center the text horizontally */
+            font-size: 0.9rem; /* Adjust font size */
+            padding-bottom: 10px; /* Optional: Add some padding at the bottom */
+            margin-top: 20px;
+        }
+
+        footer>.footer-rights {
+            text-align: center;
+            margin: 90px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhinav's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#firstSection">About</a></li>
+                    <li><a href="#projectsSection">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">Hi my name is <span class="colour">Abhinav</span>
+                <div>and I am a passionate</div>
+                <!-- <div>web developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="web dev.png" alt="No image" width="400px" height="400px" class="image">
+            </div>
+        </section>
+
+        <b>
+            <hr class="line">
+        </b>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="verticle-title">
+                        ReactJS Developer (March 2024 - April 2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I have started learning ReactJS from YouTube and currently working on To Do List App.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="verticle-title">
+                        Python Developer (October 2023 - November 2023)
+                    </div>
+                    <div class="verticle-desc">
+                        I have done a Python Develpment internship at CodeClause where I have made 3 projects URL
+                        shortner, Alarm Clock and Flappy Bird game.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="verticle-title">
+                        Python Development Training (August 2023 - September 2023)
+                    </div>
+                    <div class="verticle-desc">
+                        I have done a Python Development Training from Internshala Trainings Platform where I gained
+                        hands on experience in tools such as PyQT, GUI and SQLite. During the training I made the
+                        Cricket fanatsy league project.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="verticle-title">
+                        HTML and CSS Developer (2021-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I have learnt HTML and CSS and used to apply the knowledge to different projects, such as making
+                        forms and basic web pages.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="verticle-title">
+                        Java Developer (2023 - 2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I have gained knowledge in Java and used it to make different projects, such as making a simple
+                        calculator and I also know to work with Java on shell.
+                    </div>
+                </div>
+                <!-- <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+            </div>
+        </section>
+
+        <section class="projectsSection" id="projectsSection">
+            <h1>Projects</h1>
+            <div class="project">
+                <h2>Flappy Bird Game</h2>
+                <p>Built a Flappy Bird Game using Python's vector module</p>
+                <a href="https://github.com/abhinav21-23/flappy_bird" target="_blank">Check it here</a>
+            </div>
+            <div class="project">
+                <h2>URL Shortener</h2>
+                <p>Developed a URL shortener project in Python.</p>
+                <a href="https://github.com/abhinav21-23/url_shortner" target="_blank">Check it here</a>
+            </div>
+            <div class="project">
+                <h2>Resume Builder</h2>
+                <p>Built a basic resume builder website using HTML, CSS and JavaScript</p>
+                <a href="https://github.com/abhinav21-23/resume_builder" target="_blank">Check it here</a>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer">
+            <div>
+                <h3>Abhinav's Developer Portfolio</h3>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://www.facebook.com/abhiiig/" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/abhiig/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/engr.abhig/" target="_blank">Instagram</a></li>
+                    <li><a href="https://github.com/abhinav21-23" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            <p>Email: abhinavgupta9f@gmail.com</p>
+            www.abhinavgupta.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer', 'Java Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
